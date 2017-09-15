@@ -1,0 +1,9 @@
+testSequence:
+  frames: 100
+
+testImage:
+  width: 100
+  height: 100
+  circles: 11
+  circleColor: "#000000"
+  circleRadius: 10
