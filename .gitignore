@@ -97,5 +97,8 @@ ENV/
 # mkdocs documentation
 /site
 
+#remove test sequences
+/test_sequences
+
 # mypy
 .mypy_cache/
