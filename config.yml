@@ -1,9 +1,10 @@
 testSequence:
-  frames: 100
+  frames: 1000
+  movementDelta: 10
 
 testImage:
-  width: 100
-  height: 100
+  width: 1000
+  height: 1000
   circles: 11
   circleColor: "#000000"
-  circleRadius: 10
+  circleRadius: 15
