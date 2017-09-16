@@ -109,6 +109,3 @@ for j in range(0, frames):
                 if dist < r:
                     px[x,y] = (white[0], white[1], white[2])
     img.save('{}/image-{}.png'.format(imageDir, j))
-
-pro = subprocess.Popen(["ffmpeg", "-f", "image2", "-r", "60", "-i", "./test_sequences/sequence-{}/images/image-%d.png".format(sequenceCount), "-vcodec", "mpeg4", "-y", "./test_sequences/sequence-{}/out.mp4".format(sequenceCount)])
-
